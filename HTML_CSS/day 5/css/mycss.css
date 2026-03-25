@@ -1,0 +1,27 @@
+.mydiv{
+
+    background-color: rgb(206, 139, 115);
+    color: rgb(46, 65, 65);
+    border: dotted black;
+    width: 250PX;
+    height: 250PX;
+
+    /* THIS CALLED AS BOX MODEL CONCEPT (IMP IN INTERVIEW) */
+    padding: 20px;
+    margin: 50px;
+
+    /* CURVED BORDER 2em=32px*/
+    border-radius: 2em;
+
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* to centre the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

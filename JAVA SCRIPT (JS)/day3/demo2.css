@@ -1,0 +1,15 @@
+button{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid;
+    text-transform: uppercase;
+    text-decoration: solid;
+    
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: rgb(10, 10, 64);
+    border-color: black;
+}

@@ -1,0 +1,17 @@
+.table{
+    border: 2px solid;
+    width: 13em;
+    height: 8em;
+}
+.sbt{
+    border: 5px solid;
+    border-radius: 2px;
+    color: aliceblue;
+    background-color: green;
+    width: 10em;
+    height: 5em;
+    transition: 0.5s;
+}
+.sbt:hover{
+    opacity: 50%;
+}

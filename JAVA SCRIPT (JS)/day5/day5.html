@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day5.css">
+</head>
+<body>
+    <form action=""onsubmit="return valid()">
+
+        <label for="">USERNAME :: &nbsp; &nbsp;</label>
+        <input type="text" name="username" placeholder="enter the username">
+        <span id="userError" style="color: rgb(122, 16, 16);"></span><br><br>
+
+        
+        <label for="">PASSWORLD :: &nbsp; &nbsp;</label>
+        <input type="password" name="password" placeholder="enter the password">
+        <span id="passError" style="color: rgb(122, 16, 16);"></span><br><br>
+
+        <label for="">PASSWORLD :: &nbsp; &nbsp;</label>
+        <input type="confirmpassword" name="confirmpassword" placeholder="enter the confirm password">
+        <span id="confirmpassError" style="color: rgb(122, 16, 16);"></span><br><br>
+        
+        <label for="">MOBILENUMBER :: &nbsp; &nbsp;</label>
+        <input type="number" name="mobilenumber" id="mobilenumber" placeholder="enter the number">
+        <span id="mobileError" style="color: rgb(122, 16, 16);"></span><br><br>
+        
+        <br><br>
+        <input type="submit" value="submit">
+
+    </form>
+    
+    <script src="day5.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+/* to make change in html to css we have to write specific html tag in css */
+
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+tr,th,td{
+    border: 2px solid;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    /* to make image blur or transperant */
+    opacity: 0.5;
+}
+
+/* when we take mouse on image it will get clear [hover tag] */
+img:hover{
+    opacity: 2.0;
+}
+
+/* to remove bullet on list */
+
+ul{
+    list-style: none;
+}
+/* to make list horizontal */
+
+.mainnav{
+    display: flex;
+    margin: 20px;
+}
+
+.mainnav li{
+    margin: 12px;
+}
+
+/* to push the contact and login to all the way */
+
+.mainnav .push-right{
+    margin-left: auto; 
+}
+
+.mybtn{
+    margin: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 1.0s;
+}
+
+.redbtn{
+    border: 5px solid red;
+}
+
+.pinkbtn{
+    border: 5px solid  palevioletred;
+}
+
+.greenbtn{
+    border: 5px solid green;
+}
+
+.redbtn:hover{
+    background-color: red;
+    color: aliceblue;
+}
+
+.pinkbtn:hover{
+    background-color: palevioletred;
+    color: black;
+}
+
+.greenbtn:hover{
+    background-color: green;
+    color: white;
+}
+
+
+

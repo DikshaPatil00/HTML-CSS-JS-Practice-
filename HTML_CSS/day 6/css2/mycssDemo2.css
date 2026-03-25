@@ -1,0 +1,27 @@
+body{
+    background-color: burlywood;
+    color: black;
+    animation: myanimation 8s linear 2s infinite alternate;
+}
+
+@keyframes myanimation{
+
+    0%{
+        background-color: blueviolet;
+    }
+    20%{
+        background-color: palevioletred;
+    }
+    40%{
+        background-color: cadetblue;
+    }
+    60%{
+        background-color: darksalmon;
+    }
+    80%{
+        background-color: mediumorchid;
+    }
+    100%{
+        background-color: midnightblue;
+    }
+}
